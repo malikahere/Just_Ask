@@ -26,11 +26,9 @@ Step 2: `cd Just_Ask`
 
 Step 3: `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
 
-Step 4: `cd SearchEngine`
+Step 4:  python manage.py runserver`
 
-Step 5: `manage.py runserver` or `python manage.py runserver`
-
-Step 6: Open browser and type `http://127.0.0.1:8000/`
+Step 5: Open browser and type `http://127.0.0.1:8000/`or press ctrl+(click the link)
 
 ## TODO
 
