@@ -1,8 +1,7 @@
-# Django-Search-Engine
+# Just_Ask-Search-Engine
 
 _Scrapes links and text from different search engine and Displays it on a webpage._
 
-DEMO: https://djangosearchengine.herokuapp.com/
 
 ## Supported Search engine
 
@@ -15,8 +14,7 @@ DEMO: https://djangosearchengine.herokuapp.com/
 
 ## Features
 
-1. Removed Ad links.
-2. Scrap to the next page.(Incomplete)
+ Removed Ad links.
 
 ## How to Run
 
