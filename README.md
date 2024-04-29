@@ -20,9 +20,9 @@ _Scrapes links and text from different search engine and Displays it on a webpag
 
 Open cmd prompt and write following commands.
 
-Step 1: `git clone https://github.com/SandyUndefined/Django-Search-Engine.git`
+Step 1: `git clone https://github.com/malikahere/Just_Ask.git`
 
-Step 2: `cd Django-Search-Engine`
+Step 2: `cd Just_Ask`
 
 Step 3: `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
 
@@ -52,4 +52,3 @@ To fix a bug or create new feature, follow these steps:
 
 6. Create a pull request
 
-Please click [here](https://github.com/SandyUndefined/Django-Search-Engine/issues/new) to report an issue or request a new feature.
