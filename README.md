@@ -52,4 +52,4 @@ To fix a bug or create a new feature, follow these steps:
 
 6. Create a pull request
 
-Please click [here](https://github.com/SandyUndefined/Django-Search-Engine/issues/new) to report an issue or request a new feature.
+
