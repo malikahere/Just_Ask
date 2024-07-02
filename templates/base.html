@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link href='{% static "css/bootstrap.css" %}' rel="stylesheet">
+    <link href='{% static "css/fontawesome.css" %}' rel="stylesheet">
+    <link href='{% static "css/style.css" %}' rel="stylesheet">
+    <link rel="shortcut icon" href="static/css/g.jpeg">
+    <style>
+        .multicolortext {
+          background-image: linear-gradient(to left,rgb(4, 4, 61),red,rgb(69, 5, 5));
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          background-clip: text;
+          font-size: 70px;
+          color: transparent;
+        }
+        .abcd{
+            margin-top:20px;
+            font-size: 20px;
+        }
+        .abcde{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .xyz{
+            margin-top: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }        
+        .body{
+            background-image: url('{% static "css/g.jpeg" %}');
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+        }
+
+   </style>
+</head>
+<body>
+    <div class="body">
+   {% block content %} {% endblock content %}
+</div>
+   <script src='{% static "js/popper.js" %}'></script>
+   <script src='{% static "js/jquery.js" %}'></script>
+   <script src='{% static "js/bootstrap.js" %}'></script>
+<script src='{% static "js/fontawesome.js" %}'></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script src='{% static "js/script.js" %}'></script>
+</body>
+</html>

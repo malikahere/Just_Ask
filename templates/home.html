@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}{{block.super}} JUSTASK {% endblock %}
+{% block content %}
+<div class="abcde">
+<div class="abcd">Welcome to <strong> JUST ASK Search Engine </strong>,Search Anything...</div>
+</div>
+
+<div class="xyz">
+    <div class="zyx">
+        <h1>
+            <span class="multicolortext">ĴustĀsk</span>🔍
+        </h1> 
+        
+    </div>
+</div>
+
+<div class="wrapper">
+    
+    <form action="{% url 'Result' %}" method="post">
+        {% csrf_token %}
+    <input type="text" placeholder="🔍 type here to ask me.." name="search">
+    
+    <div class="search"></div>
+    </form>
+</div>
+
+{% endblock content %}
