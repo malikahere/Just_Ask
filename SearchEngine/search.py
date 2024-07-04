@@ -28,20 +28,26 @@ def yahoo(s):
         text.append(link.text)
     return links, text
 
-def duck(s):
-    links = []
-    text = []
-    userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36'
-    headers = {'user-agent': userAgent}
-    r = requests.get('https://duckduckgo.com/html/?q=' + s, headers=headers)
-    s = BeautifulSoup(r.content, "html.parser")
-    for i in s.find_all('div', attrs={'class': 'results_links_deep'}):
-        a = i.find('a', attrs={'class': 'result__a'})
-        links.append(a.get('href'))
-        text.append(a.text)
-    links.pop(0)
-    text.pop(0)
-    return links, text
+# def duck(s):
+#     links = []
+#     text = []
+#     userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36'
+#     headers = {'user-agent': userAgent}
+#     r = requests.get('https://duckduckgo.com/html/?q=' + s, headers=headers)
+#     s = BeautifulSoup(r.content, "html.parser")
+#     for i in s.find_all('div', attrs={'class': 'results_links_deep'}):
+#         a = i.find('a', attrs={'class': 'result__a'})
+#         if a:
+#             links.append(a.get('href'))
+#             text.append(a.text)
+
+#     # Check if lists are not empty before popping
+#     if links:
+#         links.pop(0)
+#     if text:
+#         text.pop(0)
+
+#     return links, text
 
 def ecosia(s):
     links = []

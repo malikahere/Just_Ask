@@ -8,61 +8,54 @@
   </button>
 
   <div class="container d-flex justify-content-center">
-      <h4 class="navbar-text text-white">
- ĵUST ĀSK 🔍
-  </h4>
+      <h4 class="navbar-text text-white"> ĵUST ĀSK 🔍 </h4>
   </div>
-
 </nav>
+
 <div class="container" style="margin-bottom: 85px;">
   <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-2">
-      <h4 class="panel panel-white text-center" ></h4>
-        <div class="justify-content-center">
-          {% for i,j in google %}
-         <a href="{{ i }}" class="btn mt-3 w-100">{{ j }}</a><br>
+    <div class="col-12">
+      <div class="d-flex flex-wrap justify-content-center">
+        {% for i,j in google %}
+          <a href="{{ i }}" class="btn btn-search mt-3 m-2">{{ j }}</a>
         {% endfor %}
-        </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-2">
-      <h4  class="panel panel-white text-center" ></h4>
-      <div class="justify-content-center">
-          {% for i,j in yahoo %}
-         <a href="{{ i }}" class="btn mt-3 w-100">{{ j }}</a><br>
-        {% endfor %}
-        </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-2">
-      <h4  class="panel panel-white text-center" ></h4>
-      <div class="justify-content-center">
-          {% for i,j in duck %}
-         <a href="{{ i }}" class="btn mt-3 w-100">{{ j }}</a><br>
-        {% endfor %}
-        </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-2">
-      <h4  class="panel panel-white text-center" ></h4>
-      <div class="justify-content-center">
-          {% for i,j in ecosia %}
-         <a href="{{ i }}" class="btn mt-3 w-100">{{ j }}</a><br>
-        {% endfor %}
-        </div>
-    </div>
-  <div class="col-xs-12 col-sm-6 col-md-2">
-    <h4  class="panel panel-white text-center" ></h4>
-    <div class="justify-content-center">
-        {% for i,j in bing %}
-       <a href="{{ i }}" class="btn mt-3 w-100">{{ j }}</a><br>
-      {% endfor %}
       </div>
-  </div>
-
-  <div class="col-xs-12 col-sm-6 col-md-2">
-    <h4  class="panel panel-white text-center" ></h4>
-    <div class="justify-content-center">
+    </div>
+    <div class="col-12">
+      <div class="d-flex flex-wrap justify-content-center">
+        {% for i,j in yahoo %}
+          <a href="{{ i }}" class="btn btn-search mt-3 m-2">{{ j }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    {% comment %} 
+    <div class="col-12">
+      <div class="d-flex flex-wrap justify-content-center">
+        {% for i,j in duck %}
+          <a href="{{ i }}" class="btn btn-search mt-3 m-2">{{ j }}</a>
+        {% endfor %}
+      </div>
+    </div> 
+    {% endcomment %}
+    <div class="col-12">
+      <div class="d-flex flex-wrap justify-content-center">
+        {% for i,j in ecosia %}
+          <a href="{{ i }}" class="btn btn-search mt-3 m-2">{{ j }}</a>
+        {% endfor %}  
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="d-flex flex-wrap justify-content-center">
+        {% for i,j in bing %}
+          <a href="{{ i }}" class="btn btn-search mt-3 m-2">{{ j }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="d-flex flex-wrap justify-content-center">
         {% for i,j in givewater %}
-       <a href="{{ i }}" class="btn mt-3 w-100">{{ j }}</a><br>
-      {% endfor %}
+          <a href="{{ i }}" class="btn btn-search mt-3 m-2">{{ j }}</a>
+        {% endfor %}
       </div>
     </div>
   </div>

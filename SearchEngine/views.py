@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from SearchEngine.search import google,yahoo,duck,ecosia, bing, givewater
+from SearchEngine.search import google,yahoo,ecosia, bing, givewater
 
 
 def homepage(request):
@@ -13,8 +13,8 @@ def results(request):
         google_data = zip(google_link,google_text)
         yahoo_link,yahoo_text = yahoo(result)
         yahoo_data = zip(yahoo_link,yahoo_text)
-        duck_link,duck_text = duck(result)
-        duck_data = zip(duck_link,duck_text)
+        # duck_link,duck_text = duck(result) 'duck': duck_data,
+        # duck_data = zip(duck_link,duck_text)
         ecosia_link,ecosia_text = ecosia(result)
         ecosia_data = zip(ecosia_link,ecosia_text)
         bing_link,bing_text = bing(result)
@@ -25,4 +25,4 @@ def results(request):
         if result == '':
             return redirect('Home')
         else:
-            return render(request,'results.html',{'google': google_data, 'yahoo': yahoo_data, 'duck': duck_data, 'ecosia': ecosia_data,'bing': bing_data, 'givewater': givewater_data})
+            return render(request,'results.html',{'google': google_data, 'yahoo': yahoo_data,  'ecosia': ecosia_data,'bing': bing_data, 'givewater': givewater_data})
