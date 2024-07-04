@@ -1,8 +1,6 @@
 # Django-Search-Engine
 
-_Scrapes links and text from different search engine and Displays it on a webpage._
-
-DEMO: https://djangosearchengine.herokuapp.com/
+_Scrapes links and text from different search engines and Displays it on a webpage._
 
 ## Supported Search engine
 
@@ -16,11 +14,11 @@ DEMO: https://djangosearchengine.herokuapp.com/
 ## Features
 
 1. Removed Ad links.
-2. Scrap to the next page.(Incomplete)
+2. Scrap to the next page. (Incomplete)
 
 ## How to Run
 
-Open cmd prompt and write following commands.
+Open the cmd prompt and write the following commands.
 
 Step 1: `git clone https://github.com/SandyUndefined/Django-Search-Engine.git`
 
@@ -32,7 +30,7 @@ Step 4: `cd SearchEngine`
 
 Step 5: `manage.py runserver` or `python manage.py runserver`
 
-Step 6: Open browser and type `http://127.0.0.1:8000/`
+Step 6: Open the browser and type `http://127.0.0.1:8000/`
 
 ## TODO
 
@@ -40,11 +38,11 @@ Step 6: Open browser and type `http://127.0.0.1:8000/`
 
 ## Feel free to Contribute
 
-To fix a bug or create new feature, follow these steps:
+To fix a bug or create a new feature, follow these steps:
 
 1. Fork the repo
 
-2. Create new branch.(`git checkout -b feature`)
+2. Create a new branch. (`git checkout -b feature`)
 
 3. Make changes or add new changes
 
@@ -54,4 +52,4 @@ To fix a bug or create new feature, follow these steps:
 
 6. Create a pull request
 
-Please click [here](https://github.com/SandyUndefined/Django-Search-Engine/issues/new) to report an issue or request a new feature.
+
