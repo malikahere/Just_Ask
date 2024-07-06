@@ -21,7 +21,7 @@ SECRET_KEY = 'p%3(%to04(c3rz#pjr8=f4cvb(-88e$_4%8q7b&lp%!)2eb(eg'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['just-ask-1.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
