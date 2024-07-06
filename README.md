@@ -16,9 +16,9 @@ _Scrapes links and text from different search engines and Displays it on a webpa
 1. Removed Ad links.
 2. Scrap to the next page. (Incomplete)
 
-## Demo
+## Project Link
 
-[Just_Ask-Link for app](just-ask-1.onrender.com)
+[Just_Ask](just-ask-1.onrender.com)
 
 ## How to Run
 
