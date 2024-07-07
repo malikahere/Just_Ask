@@ -18,7 +18,7 @@ _Scrapes links and text from different search engines and Displays it on a webpa
 
 ## Project Link
 
-[Just_Ask](https://just-ask-1.onrender.com)
+[https://just-ask-1.onrender.com](https://just-ask-1.onrender.com)
 
 ## How to Run
 
